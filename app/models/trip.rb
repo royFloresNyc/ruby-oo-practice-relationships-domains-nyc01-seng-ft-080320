@@ -1,5 +1,8 @@
+require_relative 'guest.rb'
+require_relative 'listing.rb'
+
 class Trip
-    attr_accessor :listing :guest
+    attr_accessor :listing, :guest
 
     @@all = []
 
